@@ -31,7 +31,7 @@ AddEventHandler("wx_pedmenu:open", function()
             options = availablepeds
         },
     })
-    SetPed(pedmenu[1])
+    if pedmenu then SetPed(pedmenu[1]) end
     
 end)
 
